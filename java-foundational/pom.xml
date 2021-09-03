@@ -2,15 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java</artifactId>
+        <groupId>com.oppo.java</groupId>
+        <version>1.0-20210903-NAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.oppo.java</groupId>
-    <artifactId>java</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-20210903-NAPSHOT</version>
-    <modules>
-        <module>java-foundational</module>
-    </modules>
+    <artifactId>java-foundational</artifactId>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
